@@ -1,47 +1,176 @@
 <!DOCTYPE html>
-<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Et si le ski devenait plus simple pour les étudiants ?</title>
+
   <style>
-    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
-    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
-    img { -ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none; }
-    table { border-collapse:collapse !important; }
-    body { margin:0 !important; padding:0 !important; width:100% !important; height:100% !important; background-color:#EEF3F6; }
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+
+    body, table, td, a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table, td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      display: block;
+    }
+
+    table {
+      border-collapse: collapse !important;
+    }
+
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      background-color: #EEF3F6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      width: 600px;
+      max-width: 600px;
+      background-color: #FFFFFF;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 14px 35px rgba(18, 59, 93, 0.18);
+    }
+
+    .hero-title {
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: bold;
+      color: #123B5D;
+    }
+
+    .body-text {
+      font-size: 16px;
+      line-height: 26px;
+      color: #4F5F6F;
+    }
+
+    .key-box {
+      background: linear-gradient(135deg, #F6FAFD 0%, #E8F3FB 100%);
+      border-radius: 10px;
+    }
+
+    .key-title {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: bold;
+      color: #123B5D;
+    }
+
+    .key-list {
+      font-size: 15px;
+      line-height: 24px;
+      color: #4F5F6F;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #0F2D46;
+      background-color: #E5F3FF;
+    }
+
+    .cta-button {
+      border-radius: 8px;
+      background: linear-gradient(135deg, #FF7A00 0%, #FF9B3A 100%);
+    }
+
+    .cta-link {
+      display: inline-block;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: bold;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 16px 28px;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+    }
+
+    .footer {
+      font-size: 12px;
+      line-height: 18px;
+      color: #D9EEF9;
+    }
 
     @media screen and (max-width: 600px) {
-      .container { width:100% !important; max-width:100% !important; }
-      .mobile-padding { padding-left:20px !important; padding-right:20px !important; }
-      .mobile-center { text-align:center !important; }
-      .stack { display:block !important; width:100% !important; }
-      .button { width:100% !important; }
-      .hero-title { font-size:26px !important; line-height:32px !important; }
-      .body-text { font-size:16px !important; line-height:24px !important; }
+      .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        border-radius: 0 !important;
+      }
+      .mobile-padding {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+      .mobile-center {
+        text-align: center !important;
+      }
+      .stack {
+        display: block !important;
+        width: 100% !important;
+      }
+      .hero-title {
+        font-size: 24px !important;
+        line-height: 30px !important;
+      }
+      .body-text {
+        font-size: 15px !important;
+        line-height: 24px !important;
+      }
+      .badge {
+        margin-bottom: 8px;
+      }
     }
   </style>
 </head>
-<body style="margin:0; padding:0; background-color:#EEF3F6;">
 
-  <div style="display:none; max-height:0; overflow:hidden; opacity:0; mso-hide:all;">
+<body>
+  <!-- Préheader (sera juste ignoré par GitHub mais OK en email) -->
+  <div style="display:none; max-height:0; overflow:hidden; opacity:0;">
     Une carte, des réductions, un accès plus fluide aux stations N’PY.
   </div>
 
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#EEF3F6">
     <tr>
-      <td align="center" style="padding:24px 12px;">
-        <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" class="container" style="width:600px; max-width:600px; background-color:#FFFFFF; border-radius:12px; overflow:hidden;">
+      <td align="center" style="padding:32px 16px;">
+        <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" class="container">
 
           <!-- Header -->
           <tr>
             <td align="left" style="padding:24px 32px 16px 32px;" class="mobile-padding">
-              <a href="https://URL-LANDING-PAGE" target="_blank" style="text-decoration:none;">
-                <img src="https://via.placeholder.com/160x60?text=Logo+N%27PY"
-                     alt="Logo N'PY"
-                     width="160"
-                     style="display:block; width:160px; max-width:160px; height:auto;">
+              <a href=https://url-landing-page/ target="_blank" style="text-decoration:none;">
+                <img
+                  src=https://via.placeholder.com/160x60?text=Logo+N%27PY
+                  alt="Logo N'PY"
+                  width="160"
+                  style="width:160px; max-width:160px; height:auto;">
               </a>
             </td>
           </tr>
@@ -49,24 +178,129 @@
           <!-- Banner -->
           <tr>
             <td align="center" style="padding:0;">
-              <a href="https://URL-LANDING-PAGE" target="_blank" style="text-decoration:none;">
-                <img src="https://via.placeholder.com/1200x600?text=Banniere+Carte+No+Souci+Pyrenees"
-                     alt="Carte No Souci Pyrénées : le bon plan ski à relayer à vos étudiants"
-                     width="600"
-                     style="display:block; width:100%; max-width:600px; height:auto;">
+              <a href=https://url-landing-page/ target="_blank" style="text-decoration:none;">
+                <img
+                  src=https://via.placeholder.com/1200x600?text=Banniere+Carte+No+Souci+Pyrenees
+                  alt="Carte No Souci Pyrénées : le bon plan ski à relayer à vos étudiants"
+                  width="600"
+                  style="width:100%; max-width:600px; height:auto;">
               </a>
             </td>
           </tr>
 
-          <!-- Intro -->
+          <!-- Intro badge + titre -->
           <tr>
-            <td align="left" style="padding:32px 32px 8px 32px;" class="mobile-padding">
-              <div style="font-family:Arial, Helvetica, sans-serif; font-size:30px; line-height:36px; font-weight:bold; color:#123B5D;" class="hero-title">
+            <td align="left" style="padding:28px 32px 8px 32px;" class="mobile-padding">
+              <span class="badge">Offre étudiante N’PY</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="left" style="padding:4px 32px 8px 32px;" class="mobile-padding">
+              <div class="hero-title">
                 Et si vous proposiez un vrai bon plan ski à vos étudiants ?
               </div>
             </td>
           </tr>
 
+          <!-- Intro texte -->
           <tr>
             <td align="left" style="padding:8px 32px 0 32px;" class="mobile-padding">
+              <div class="body-text">
+                Bonjour,<br><br>
+                Avec la <strong>Carte No Souci Pyrénées de N’PY</strong>, vos étudiants profitent d’une expérience ski plus simple,
+                plus fluide et plus avantageuse dans les stations du réseau.
+              </div>
+            </td>
+          </tr>
+
+          <!-- Key points box -->
+          <tr>
+            <td align="left" style="padding:24px 32px 0 32px;" class="mobile-padding">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="key-box">
+                <tr>
+                  <td align="left" style="padding:22px 22px 10px 22px;">
+                    <div class="key-title">
+                      Pour 46 € par an, ils bénéficient de :
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="padding:0 22px 22px 22px;">
+                    <div class="key-list">
+                      • une <strong>carte personnelle valable toute la saison</strong><br>
+                      • un <strong>accès direct aux remontées mécaniques</strong><br>
+                      • des <strong>coupe-file illimités</strong><br>
+                      • <strong>15 % de réduction minimum</strong><br>
+                      • jusqu’à <strong>30 % en semaine</strong><br>
+                      • jusqu’à <strong>40 % en fin de saison</strong><br>
+                      • une <strong>assurance montagne de base incluse</strong><br>
+                      • un <strong>programme fidélité</strong> avec la <strong>7e journée à moitié prix</strong>, puis certaines journées <strong>offertes selon conditions</strong><br>
+                      • une <strong>option assurance complémentaire à 15 €</strong>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Benefit text -->
+          <tr>
+            <td align="left" style="padding:24px 32px 0 32px;" class="mobile-padding">
+              <div class="body-text">
+                Résultat, ils skient plus facilement, attendent moins et économisent davantage.<br><br>
+                Pour votre structure, c’est une belle opportunité de relayer une offre utile, attractive et crédible,
+                portée par une marque reconnue des Pyrénées.
+              </div>
+            </td>
+          </tr>
+
+          <!-- CTA -->
+          <tr>
+            <td align="center" style="padding:32px 32px 24px 32px;" class="mobile-padding">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="button">
+                <tr>
+                  <td align="center" class="cta-button">
+                    <a
+                      href=https://url-landing-page/
+                      target="_blank"
+                      class="cta-link">
+                      Découvrir l’offre étudiante N’PY
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Secondary note -->
+          <tr>
+            <td align="left" style="padding:0 32px 32px 32px;" class="mobile-padding">
+              <div style="font-size:14px; line-height:22px; color:#6A7A89;">
+                Par ailleurs, des avantages complémentaires peuvent s’ajouter selon les conditions en vigueur,
+                comme le parking P1 ou une dernière journée offerte.
+              </div>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="padding:20px 32px; background-color:#123B5D;" class="mobile-padding">
+              <div class="footer">
+                N’PY • Réseau de stations des Pyrénées<br>
+                Cet email est destiné aux structures étudiantes susceptibles de relayer l’offre.<br>
+                Landing page :
+                <a href=https://url-landing-page/ target="_blank" style="color:#FFFFFF; text-decoration:underline;">
+                  voir l’offre
+                </a>
+              </div>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
 </html>
+
