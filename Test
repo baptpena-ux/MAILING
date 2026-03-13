@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Et si le ski devenait plus simple pour les étudiants ?</title>
+  <style>
+    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+    img { -ms-interpolation-mode:bicubic; border:0; outline:none; text-decoration:none; display:block; height:auto; line-height:100%; }
+    table { border-collapse:collapse !important; }
+    body { margin:0 !important; padding:0 !important; width:100% !important; height:100% !important; background-color:#eef3f6; }
+    @media screen and (max-width:600px) {
+      .container { width:100% !important; max-width:100% !important; }
+      .mobile-padding { padding-left:20px !important; padding-right:20px !important; }
+      .hero-title { font-size:28px !important; line-height:34px !important; }
+      .body-text { font-size:16px !important; line-height:24px !important; }
+      .button { width:100% !important; }
+      .button a { display:block !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#eef3f6;">
+
+  <!-- Preheader (invisible) -->
+  <div style="display:none; max-height:0; overflow:hidden; opacity:0; mso-hide:all; font-size:1px; line-height:1px; color:#eef3f6;">
+    Une carte, des réductions, un accès plus fluide aux stations N’PY.
+  </div>
+
+  <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#eef3f6">
+    <tr>
+      <td align="center" style="padding:24px 12px;">
+
+        <table role="presentation" width="600" border="0" cellspacing="0" cellpadding="0" class="container" style="width:600px; max-width:600px; background-color:#ffffff; border-radius:12px; overflow:hidden;">
+          
+          <!-- Header -->
+          <tr>
+            <td align="left" style="padding:24px 32px 16px 32px;" class="mobile-padding">
+              <a href="https://URL-LANDING-PAGE" target="_blank" style="text-decoration:none;">
+                <img src="https://via.placeholder.com/160x60?text=Logo+N%27PY" alt="Logo N'PY" width="160" style="width:160px; max-width:160px; height:auto;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- Bannière -->
+          <tr>
+            <td align="center" style="padding:0;">
+              <a href="https://URL-LANDING-PAGE" target="_blank" style="text-decoration:none;">
+                <img src="https://via.placeholder.com/1200x600?text=Banniere+N%27PY" alt="Carte No Souci Pyrénées : le bon plan ski à relayer à vos étudiants" width="600" style="width:100%; max-width:600px; height:auto;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- Titre -->
+          <tr>
+            <td align="left" style="padding:32px 32px 8px 32px;" class="mobile-padding">
+              <div class="hero-title" style="font-family:Arial, Helvetica, sans-serif; font-size:30px; line-height:36px; font-weight:bold; color:#123b5d;">
+                Et si vous proposiez à vos étudiants un avantage qu’ils ont vraiment envie d’utiliser cet hiver ?
+              </div>
+            </td>
+          </tr>
+
+          <!-- Intro -->
+          <tr>
+            <td align="left" style="padding:8px 32px 0 32px;" class="mobile-padding">
+              <div class="body-text" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:26px; color:#4f5f6f;">
+                Bonjour,<br><br>
+                Avec la <strong>Carte No Souci Pyrénées de N’PY</strong>, ils profitent d’une expérience ski beaucoup plus simple, plus fluide et plus avantageuse dans les stations du réseau.
+              </div>
+            </td>
+          </tr>
+
+          <!-- Bloc avantages -->
+          <tr>
+            <td align="left" style="padding:24px 32px 0 32px;" class="mobile-padding">
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#f6fafd; border-radius:10px;">
+                <tr>
+                  <td align="left" style="padding:22px 22px 10px 22px;">
+                    <div style="font-family:Arial, Helvetica, sans-serif; font-size:18px; line-height:24px; font-weight:bold; color:#123b5d;">
+                      Concrètement, pour 46 € par an :
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="padding:0 22px 22px 22px;">
+                    <div class="body-text" style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:24px; color:#4f5f6f;">
+                      • <strong>carte personnelle valable toute la saison</strong><br>
+                      • <strong>accès direct aux remontées mécaniques</strong><br>
+                      • <strong>billets coupe-file illimités</strong><br>
+                      • <strong>réduction minimale de 15 %</strong><br>
+                      • jusqu’à <strong>30 % en semaine</strong><br>
+                      • jusqu’à <strong>40 % en fin de saison</strong><br>
+                      • <strong>assurance montagne de base incluse</strong><br>
+                      • <strong>programme fidélité</strong> avec la <strong>7e journée à moitié prix</strong>, puis certaines journées <strong>offertes selon conditions</strong>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Option assurance -->
+          <tr>
+            <td align="left" style="padding:24px 32px 0 32px;" class="mobile-padding">
+              <div class="body-text" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:26px; color:#4f5f6f;">
+                De plus, une <strong>option assurance complémentaire à 15 €</strong> peut être ajoutée pour aller plus loin.
+              </div>
+            </td>
+          </tr>
+
+          <!-- Persuasion -->
+          <tr>
+            <td align="left" style="padding:20px 32px 0 32px;" class="mobile-padding">
+              <div class="body-text" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:26px; color:#4f5f6f;">
+                Résultat, vos étudiants skient plus facilement, attendent moins, économisent davantage et profitent mieux de leurs sorties montagne.
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="left" style="padding:20px 32px 0 32px;" class="mobile-padding">
+              <div class="body-text" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:26px; color:#4f5f6f;">
+                Pour votre structure, c’est aussi une belle opportunité. Vous relayez une offre claire, utile et immédiatement attractive. Ainsi, vous valorisez votre vie étudiante avec un bon plan concret, porté par une marque reconnue des Pyrénées.
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="left" style="padding:20px 32px 0 32px;" class="mobile-padding">
+              <div class="body-text" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:26px; color:#4f5f6f;">
+                Par ailleurs, la carte fonctionne sur plusieurs stations N’PY et peut aussi donner accès à des avantages complémentaires comme le <strong>parking P1</strong> ou encore une <strong>dernière journée offerte</strong>, selon les conditions en vigueur.
+              </div>
+            </td>
+          </tr>
+
+          <!-- CTA : VML pour Outlook + HTML pour les autres -->
+          <tr>
+            <td align="center" style="padding:32px 32px 24px 32px;" class="mobile-padding">
+
+              <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="https://URL-LANDING-PAGE" style="height:48px;v-text-anchor:middle;width:320px;" arcsize="8%" strokecolor="#ff7a00" fillcolor="#ff7a00">
+                  <w:anchorlock/>
+                  <center style="color:#ffffff;font-family:Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;">
+                    Découvrir l’offre étudiante N’PY
+                  </center>
+                </v:roundrect>
+              <![endif]-->
+
+              <!--[if !mso]><!-- -->
+                <a href="https://URL-LANDING-PAGE" target="_blank" style="background-color:#ff7a00;color:#ffffff;display:inline-block;padding:14px 28px;border-radius:8px;font-family:Arial, Helvetica, sans-serif;font-weight:bold;text-decoration:none;font-size:16px;">
+                  Découvrir l’offre étudiante N’PY
+                </a>
+              <!--<![endif]-->
+
+            </td>
+          </tr>
+
+          <!-- Signature -->
+          <tr>
+            <td align="left" style="padding:0 32px 28px 32px;" class="mobile-padding">
+              <div style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:24px; color:#4f5f6f;">
+                Bien à vous,<br>
+                <strong>L’équipe N’PY</strong>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="padding:20px 32px; background-color:#123b5d;" class="mobile-padding">
+              <div style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#d9eef9;">
+                N’PY • Réseau de stations des Pyrénées<br>
+                Cet email est destiné aux structures étudiantes susceptibles de relayer l’offre.<br>
+                <a href="https://URL-LANDING-PAGE" target="_blank" style="color:#ffffff; text-decoration:underline;">Voir l’offre</a>
+              </div>
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
